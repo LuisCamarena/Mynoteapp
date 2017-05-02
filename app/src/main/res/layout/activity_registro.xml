@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="practica1.aplicacion.com.mynoteapp.registro">
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="INGRESE USUARIO"
+        tools:layout_editor_absoluteY="41dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="INGRESE EMAIL"
+        tools:layout_editor_absoluteY="102dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="INGRESE CONTRASEÑA"
+        tools:layout_editor_absoluteY="164dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/reg_password2"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="REPITA CONTRASEÑA"
+        tools:layout_editor_absoluteY="222dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:layout_width="262dp"
+        android:layout_height="69dp"
+        android:text="REGISTRAR"
+        android:textStyle="bold"
+        android:background="#009688"
+        android:textColor="@android:color/white"
+        android:onClick="callLogin"
+        tools:layout_editor_absoluteY="326dp"
+        tools:layout_editor_absoluteX="61dp" />
+
+
+</android.support.constraint.ConstraintLayout>
